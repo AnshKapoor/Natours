@@ -45,6 +45,7 @@ body{
 .heading-primary{
     color:#fff;
     text-transform: uppercase;
+    backface-visibility: hidden; /* dont know why we added it */
 }
 .heading-primary-main{
 display:block;
@@ -90,4 +91,14 @@ transform:translate(0);
     opacity:1;
     transform:translate(0);
     }
+    }
+    .btn:link,
+    .btn:visited{
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:15px 40px;
+    }
+    .btn-white{
+        background-color: #fff;
+        color:#777;
     }

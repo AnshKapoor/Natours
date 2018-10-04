@@ -100,9 +100,12 @@ transform:translate(0);
     text-decoration: none;
     padding:15px 40px;
     display:inline-block;
+    border-radius: 50px;
+    transition:all 0.2s;
     }
     .btn:hover{
         transform: translateY(-4px);
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
     }
     .btn:active{
         transform: translateY(-2px);
